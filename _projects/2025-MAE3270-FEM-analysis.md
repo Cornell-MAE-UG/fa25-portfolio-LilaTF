@@ -15,6 +15,8 @@ I chose to make my wrench out of the titanium alloy Ti-3Al-2.5V. I then performe
 
 1. Image(s) of CAD model. Must show all key dimensions.
 
+({{ "assets/images/blockdiagram.png" | relative_url }})
+
 <p align="center">
   <img src="{{ site.baseurl }}/assets/images/wrenchlength.png" alt="Side view of wrench CAD model" width="500">
 </p>
