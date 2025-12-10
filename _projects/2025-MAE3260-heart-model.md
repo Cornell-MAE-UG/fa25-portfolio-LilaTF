@@ -6,11 +6,11 @@ description: Just a spaceship that I designed
 technologies: 
 image: /assets/images/blockdiagram.png
 ---
-Abstract
+**Abstract**
 
 This report models the human heart as a feedback-controlled system using a Windkessel equation for arterial pressure, which models the heart as a circuit, along with a heart-rate regulation model. We selected the heart because it clearly connects biological function with system dynamics and control principles. The model uses arterial pressure and heart rate as states, nervous-system drive as the input, and average pressure and heart rate as outputs. We analyze how changes in key parameters represent cardiovascular diseases such as hypertension, heart failure, and diabetes, and examine how these conditions alter the system’s ability to regulate blood pressure and maintain effective cardiac output.
 
-ODE and State-Space Representation
+**ODE and State-Space Representation**
  
 To simplify the state-space representation of the heart, we chose to analyze just one chamber of the heart- the left aorta. The 4-Module Windkessel Model maps the complexities of the cardiovascular system to components of a simplified electrical circuit. It provides an electrical representation of the volumetric flow and pressure behavior in the left aorta. This model makes the lumped parameter assumption that there is uniform pressure and uniform flow. It also assumes a linear relation between pressure and the arterial resistance, compliance, and blood mass. These main assumptions informed the development of the circuit analogy below.
 
