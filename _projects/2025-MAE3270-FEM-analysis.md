@@ -8,12 +8,12 @@ image: /assets/images/cover.png
 
 ---
 
-For my Mechanics of Materials course we were asked to design a non-ratcheting, **3/8 inch** drive instrumented torque wrench rated for **600 in-lbf**. The torque was transduced by strain gauges on the sides of the torque wrench. The design goal was to maximize the voltage output of the wrench (mV/V) at the rated torque while designing for a safety factor of **Xo = 4** for yield, **Xk = 2** for crack growth and ****Xs = 1.5** for fatigue stress.
+For my Mechanics of Materials course we were asked to design a non-ratcheting, **3/8 inch** drive instrumented torque wrench rated for **600 in-lbf**. The torque was transduced by strain gauges on the sides of the torque wrench. The design goal was to maximize the voltage output of the wrench (mV/V) at the rated torque while designing for a safety factor of **Xo = 4** for yield, **Xk = 2** for crack growth and **Xs = 1.5** for fatigue stress.
 
 
 I chose to make my wrench out of the titanium alloy **Ti-3Al-2.5V**. I then performed iterative calculations in Matlab to determine the proper geometry to ensure these design requirements were meant. Once I found the correct geometry, I created the design in Autodesk Fusion. I simulated the force and boundary conditions in ANSYS to determine how my hand calculations held up against results from the finite element method.    
 
-<u>Image(s) of CAD model.</u> 
+<u>Images of CAD model.</u> 
 
 <p align="center">
   <img src="{{ site.baseurl }}/assets/images/wrenchlength.png" alt="Side view of wrench CAD model" width="500">
