@@ -15,31 +15,31 @@ This report models the human heart as a feedback-controlled system using a Windk
 To simplify the state-space representation of the heart, we chose to analyze just one chamber of the heart- the left aorta. The 4-Module Windkessel Model maps the complexities of the cardiovascular system to components of a simplified electrical circuit. It provides an electrical representation of the volumetric flow and pressure behavior in the left aorta. This model makes the lumped parameter assumption that there is uniform pressure and uniform flow. It also assumes a linear relation between pressure and the arterial resistance, compliance, and blood mass. These main assumptions informed the development of the circuit analogy below.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/Circuit.png" alt="4-Module Windkessel Model" width="500">
+  <img src="{{ site.baseurl }}/assets/images/Circuit.png" alt="4-Module Windkessel Model" width="400">
 </p>
 
 P in the circuit represents the pressure coming from the left ventricle after the valve is opened. The valve is not modeled. The details of this electrical analogy are outlined in the table below. 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/state-space-table.png" alt="Cardiovascual-Electrical analogy table" width="500">
+  <img src="{{ site.baseurl }}/assets/images/state-space-table.png" alt="Cardiovascual-Electrical analogy table" width="600">
 </p>
 
 Component Relations: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/comps.png" alt="Electrical and cardiovascular equations" width="500">
+  <img src="{{ site.baseurl }}/assets/images/comps.png" alt="Electrical and cardiovascular equations" width="400">
 </p>
 
 From applying Kirchoff’s Current Law to the node: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/flow-equation.png" alt="Kirchoff's current law" width="500">
+  <img src="{{ site.baseurl }}/assets/images/flow-equation.png" alt="Kirchoff's current law" width="400">
 </p>
 
 From applying Kirchoff’s Voltage Law: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/kirchoffs.png" alt="Electrical and cardiovascular equations" width="500">
+  <img src="{{ site.baseurl }}/assets/images/kirchoffs.png" alt="Electrical and cardiovascular equations" width="400">
 </p>
 
 We will choose a 2-state space representation:
@@ -51,7 +51,7 @@ We will choose a 2-state space representation:
 We will choose our output to be the arterial pressure for the sake of modeling this problem, but volumetric flow is also another possible output. 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/ouput.png" alt="Output equation" width="500">
+  <img src="{{ site.baseurl }}/assets/images/output.png" alt="Output equation" width="200">
 </p>
 
 This yields the state representation below: 
@@ -103,23 +103,23 @@ Cardiovascular diseases fundamentally alter how the heart and the overall system
 Original ODE
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/originalode.png" alt="Original ODE" width="600">
+  <img src="{{ site.baseurl }}/assets/images/originalode.png" alt="Original ODE" width="500">
 </p>
 
 Pacemaker ODE:
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/pacemaker.png" alt="Pacemaker ODE" width="600">
+  <img src="{{ site.baseurl }}/assets/images/pacemaker.png" alt="Pacemaker ODE" width="500">
 </p>
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/equationrelations.png" alt="Pacemaker ODE" width="600">
+  <img src="{{ site.baseurl }}/assets/images/equationrelations.png" alt="Pacemaker ODE" width="500">
 </p>
 
 With the addition of a pacemaker, our model of the heart has an extra component added:
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/addedcomp.png" alt="Pacemaker ODE" width="600">
+  <img src="{{ site.baseurl }}/assets/images/addedcomp.png" alt="Pacemaker ODE" width="200">
 </p>
 
 **Performance Metric**
