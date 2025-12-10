@@ -16,8 +16,8 @@ I chose to make my wrench out of the titanium alloy Ti-3Al-2.5V. I then performe
 
 
 1. Image(s) of CAD model. Must show all key dimensions.
-![The San Juan Mountains are beautiful](/assets/images/wrenhlength.png)
-![The San Juan Mountains are beautiful](/assets/images/wrenchhead.png )
+!(/assets/images/wrenhlength.png)
+!(/assets/images/wrenchhead.png)
 
 
 2. Describe material used and its relevant mechanical properties.
