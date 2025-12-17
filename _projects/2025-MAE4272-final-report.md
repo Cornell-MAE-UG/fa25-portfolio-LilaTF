@@ -32,7 +32,7 @@ The constraints on the geometry of the blade design were minimal.  The hub radiu
 <figure align="center">
   <img src="{{ site.baseurl }}/assets/images/cad-model.png" alt="testing setup" width="400">
   <figcaption>
-    <strong>Figure 1:</strong> Figure 2: CAD Model of Blade (with dimensions in inches)
+    <strong>Figure 2:</strong> CAD Model of Blade (with dimensions in inches)
   </figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Another general aspect of the design process was picking a suitable airfoil and 
 <figure align="center">
   <img src="{{ site.baseurl }}/assets/images/cl-cd.png" alt="testing setup" width="400">
   <figcaption>
-    <strong>Figure 1:</strong> Figure 3: CL/CD vs  (source: Airfoiltools.com) 
+    <strong>Figure 3:</strong> CL/CD vs  (source: Airfoiltools.com) 
   </figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ At a wind speed of 4.3 m/s, peak power was observed at approximately 800 RPM, as
 <figure align="center">
   <img src="{{ site.baseurl }}/assets/images/toruevr.png" alt="testing setup" width="400">
   <figcaption>
-    <strong>Figure 1:</strong> Figure 4: Torque and power graphs at freestream of 4.3 m/s 
+    <strong>Figure 4:</strong> Torque and power graphs at freestream of 4.3 m/s 
   </figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ At 5.5 m/s, the peak power shifted upward to approximately 1100 RPM, reflecting 
 <figure align="center">
   <img src="{{ site.baseurl }}/assets/images/torque51.png" alt="testing setup" width="400">
   <figcaption>
-    <strong>Figure 1:</strong> Figure 5: Torque and power graphs at freestream of 5.5 m/s
+    <strong>Figure 5: </strong> Torque and power graphs at freestream of 5.5 m/s
   </figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ At the highest tested wind speed of 6.1 m/s, peak power occurred near 1250 RPM. 
 <figure align="center">
   <img src="{{ site.baseurl }}/assets/images/torquevr2.png" alt="testing setup" width="400">
   <figcaption>
-    <strong>Figure 1:</strong> Figure 6: Torque and power graphs at freestream of 6.1 m/s
+    <strong>Figure 6:</strong> Torque and power graphs at freestream of 6.1 m/s
   </figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ At high torque and low RPM conditions, theoretical and experimental power values
 <figure align="center">
   <img src="{{ site.baseurl }}/assets/images/theoretical.png" alt="testing setup" width="400">
   <figcaption>
-    <strong>Figure 1:</strong> Figure 7: Theoretical vs. actual power curves for two of our freestream conditions. The experimental graph stays close to the theoretical at low RPMs before ultimately diverging as frictional losses begin to dominate.
+    <strong>Figure 7:</strong> Theoretical vs. actual power curves for two of our freestream conditions. The experimental graph stays close to the theoretical at low RPMs before ultimately diverging as frictional losses begin to dominate.
   </figcaption>
 </figure>
 
