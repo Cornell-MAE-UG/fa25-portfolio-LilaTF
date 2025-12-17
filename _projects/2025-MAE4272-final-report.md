@@ -104,7 +104,7 @@ The theoretical model assumed a frictionless system, whereas the experimental ap
 At high torque and low RPM conditions, theoretical and experimental power values were relatively close, suggesting that parasitic losses are less dominant at lower rotation speeds, since most internal frictional losses have a power-law relationship with rotational velocity. Once our blade reached higher speeds however, the internal losses began to dominate and limited the amount of power our blade could output relative to the theoretical graph.
 
 <figure align="center">
-  <img src="{{ site.baseurl }}/assets/images/theoretical.png" alt="testing setup" width="400">
+  <img src="{{ site.baseurl }}/assets/images/theoretical-actual.png" alt="testing setup" width="400">
   <figcaption>
     <strong>Figure 7:</strong> Theoretical vs. actual power curves for two of our freestream conditions. The experimental graph stays close to the theoretical at low RPMs before ultimately diverging as frictional losses begin to dominate.
   </figcaption>
