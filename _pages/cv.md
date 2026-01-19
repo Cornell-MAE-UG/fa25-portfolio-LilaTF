@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Lila_Tauzin-Fox_Resume.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [lst33@cornell.edu](mailto:lst33@cornell.edu) | | | **Phone:** +310 422 4356
